@@ -1,0 +1,10 @@
+#first we should have py download in our system
+
+#then, we should download a package into our system -
+
+# go to cmd prompt
+# for dowloading package - pip install speedtest-cli
+# after that, it'll install all neccesary files
+
+# then, later on if we want to check the internet status/speed details:
+#command- 'speedtest-cli'
