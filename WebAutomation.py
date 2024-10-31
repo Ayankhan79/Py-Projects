@@ -13,7 +13,7 @@ def webauto():
     # List of URLs to be opened
    URLS = (
         "https://web.whatsapp.com/",
-        "https://www.youtube.com/playlist?list=PLZoTAELRMXVNUL99R4bDlVYsncUNvwUBB",
+        "https://www.youtube.com/",
         "https://www.udemy.com/",
         "https://chatgpt.com/"
    )
