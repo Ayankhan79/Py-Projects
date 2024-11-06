@@ -9,6 +9,12 @@ import webbrowser as wb
 # or automating repetitive browsing tasks.
 
 def webauto():
+
+    #you can add path to it , in which browser you want it to open
+    '''
+    -->Chrome_path='XXXXXXXXX %s'
+    XXXXXXXXX-->copy the path of your browser from the file manager.
+    '''
     
     # List of URLs to be opened
    URLS = (
@@ -32,7 +38,14 @@ def webauto():
        wb.open(url)
        # Opens the URL in the default web browser
        #wb.open(url): This function opens the specified URL in the user's default web browser
+
+
+        """
+        If you're using the Chrome_path method Then, in the for loop:
         
+        -> wb.get(Chrome_path).open(url)
+        """
+
 webauto()
 
 ##This is For Default Browser##
