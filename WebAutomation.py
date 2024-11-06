@@ -10,12 +10,26 @@ import webbrowser as wb
 
 def webauto():
 
-    #you can add path to it , in which browser you want it to open
+    #you can add path to it , in which browser you want it to open...
     '''
     -->Chrome_path='XXXXXXXXX %s'
-    XXXXXXXXX-->copy the path of your browser from the file manager.
     '''
+    #XXXXXXXXX-->copy the path of your browser from the file manager.
+
+
+    #If you Want to Open Your Code/Text editor...
+    #do as followed:
+    '''
+    #-> Code_path='C:XXX\\xxx\\ccc\\ddd.exe'
+    '''
+    #->#specifying the Code path from the file manager and copy it (i.e .exe form)
     
+    '''
+    #-> os.startfile(Code_path)
+    '''
+    #->This line will Start/Open the Particular editor You've Mentioned in the path.
+
+
     # List of URLs to be opened
    URLS = (
         "https://web.whatsapp.com/",
@@ -40,11 +54,11 @@ def webauto():
        #wb.open(url): This function opens the specified URL in the user's default web browser
 
 
-        """
-        If you're using the Chrome_path method Then, in the for loop:
         
+        #If you're using the Chrome_path method Then, in the for loop:
+        '''
         -> wb.get(Chrome_path).open(url)
-        """
+        '''
 
 webauto()
 
